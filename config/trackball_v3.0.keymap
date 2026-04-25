@@ -37,7 +37,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "ADJ_TD";
             #binding-cells = <0>;
-            bindings = <&hold_mo_tap_mkp 1 MB3>, <&to 3>;
+            bindings = <&hold_mo_tap_mkp 2 MB3>, <&to 3>;
         };
 
         hold_mo_tap_mkp: hold_mo_tap_mkp {
@@ -73,7 +73,7 @@
 
         base {
             bindings = <
-&mkp MB1  &hold_mo_tap_mkp 2 MB2
+&mkp MB1  &hold_mo_tap_mkp 1 MB2
             >;
 
             display-name = "Base";
